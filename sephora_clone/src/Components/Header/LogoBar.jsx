@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import { Flex, Input, Box, Image, Text } from "@chakra-ui/react";
 import { SearchIcon, CloseIcon } from "@chakra-ui/icons";
-import { FaShoppingBag, FaUserAlt, FaHeart } from "react-icons/fa";
+import { BsHandbag } from "react-icons/bs";
+import { FaRegUser } from "react-icons/fa";
+import { FiHeart } from "react-icons/fi";
 
 const LogoBar = () => {
   const [close, setClose] = useState(false);
 
   return (
-    <Flex m="auto" w="90%" justify={"space-between"} align="center" display={{base: "none" ,sm: "none", lg: "flex", xl: "flex", "2xl": "flex"}}>
+    <Flex display={{base: "none", sm: "none", md:"none", lg: "none", xl:"flex", "2xl": "flex"}} p={"0 1rem"} pr={"1rem"} m="auto" w="100%" justify={"space-between"} align="center" cursor={"pointer"}>
       <Flex
-        borderBottom={"0.5px solid grey"}
+        borderBottom={"0.5px solid #D7D7D7"}
         w="18%"
         align={"center"}
         justify={"space-between"}
@@ -36,25 +38,26 @@ const LogoBar = () => {
           </Box>
         )}
       </Flex>
-      <Box width="19%" height={"16vh"}>
+      <Box width="18.5%">
         <Image
           w={"100%"}
           h="100%"
           alt="logo"
           src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
+          cursor={"pointer"}
         />
       </Box>
-      <Flex w="20%" align={"center"} justify={"space-between"}>
+      <Flex w="15%" align={"center"} justify={"space-between"}>
         <Box>
-        <FaHeart color="#EC008C"/>
+        <FiHeart color="#EC008C" fontSize={"1.2rem"}/>
         </Box>
-        <Text>|</Text>
+        <Text color={"#D7D7D7"} fontSize="1.3rem">|</Text>
         <Box>
-          <FaShoppingBag color="#EC008C" />
+          <BsHandbag color="#EC008C" fontSize={"1.2rem"} />
         </Box>
-        <Text>|</Text>
-        <Flex align={"center"} justify={"space-between"} width="27.5%">
-          <FaUserAlt color="#EC008C" />
+        <Text color={"#D7D7D7"} fontSize="1.3rem">|</Text>
+        <Flex align={"center"} justify={"space-between"} width="33%">
+          <FaRegUser color="#EC008C" fontSize={"1.2rem"} />
           <Text>Login</Text>
         </Flex>
       </Flex>
