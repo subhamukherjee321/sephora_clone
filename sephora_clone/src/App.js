@@ -1,7 +1,8 @@
 import './App.css';
-import Home from './Components/Home Page/Home';
+import Home from "./Pages/HomePage";
 
 function App() {
+
   return (
     <div className="App">
       <Home />
