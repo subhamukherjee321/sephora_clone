@@ -1,41 +1,39 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
-export default function AutoPlay () {
-    const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear"
-    };
-
-    return (
-      <div>
-        <h2>Auto Play</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
-      </div>
-    );
+export default function SliderShow() {
+  return (
+    <div style={{maxWidth: "100%", margin: "auto"}}>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img alt="1" src="https://logan.nnnow.com/content/dam/nnnow-project/09-nov-2022/se-11-11-/Sephora_GenericTopbanner_1111sale.jpg" width={"100%"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img alt="2" src="https://logan.nnnow.com/content/dam/nnnow-project/09-nov-2022/se-11-11-/SC_Topbanner_1111Saledesktop.jpg" width={"100%"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img alt="3" src="https://logan.nnnow.com/content/dam/nnnow-project/09-nov-2022/se-11-11-/Sephora_GenericTopbanner_1111sale.jpg" width={"100%"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img alt="4" src="https://logan.nnnow.com/content/dam/nnnow-project/09-nov-2022/se-11-11-/Sephora_GenericTopbanner_1111sale.jpg" width={"100%"} />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
 }

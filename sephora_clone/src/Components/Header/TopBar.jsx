@@ -17,26 +17,44 @@ const TopBar = () => {
         xl: "1rem",
         "2xl": "1rem",
       }}
-      boxShadow= "rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px"
-      justify={{base: "space-around",sm: "space-around",md: "space-evenly",lg: "space-between", xl:"space-between", "2xl": "space-between"}}
+      boxShadow="rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px"
+      justify={{
+        base: "space-around",
+        sm: "space-around",
+        md: "space-evenly",
+        lg: "space-between",
+        xl: "space-between",
+        "2xl": "space-between",
+      }}
       color={"BlackAlpha 400"}
       align="center"
       p={"0.2rem 0.5rem"}
       m="auto"
       cursor="pointer"
-      bg={{base:"white",sm:"white",md:"white",lg:"white", xl:"#F2F2F2", "2xl": "#F2F2F2"}}
-      w="100vw"
+      bg={{
+        base: "white",
+        sm: "white",
+        md: "white",
+        lg: "white",
+        xl: "#F2F2F2",
+        "2xl": "#F2F2F2",
+      }}
+      w="100%"
       overflow={"hidden"}
     >
-      <Flex w={{md: "22%" ,lg: "25%" ,xl: "22.3%", "2xl": "22.3%"}} justify={"space-between"} align="center"
+      <Flex
+        w={{ md: "22%", lg: "25%", xl: "22.3%", "2xl": "22.3%" }}
+        justify={"space-between"}
+        align="center"
         display={{
-                base: "none",
-                sm: "none",
-                md: "none",
-                lg: "none",
-                xl: "Flex",
-                "2xl": "Flex",
-              }}>
+          base: "none",
+          sm: "none",
+          md: "none",
+          lg: "none",
+          xl: "Flex",
+          "2xl": "Flex",
+        }}
+      >
         <Box w={"40%"}>
           <Image
             src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png"
@@ -61,7 +79,7 @@ const TopBar = () => {
         <Flex
           align={"center"}
           justify="space-between"
-          w={{xl: "41%",md:"50%"}}
+          w={{ xl: "41%", md: "50%" }}
           display={{
             base: "none",
             sm: "none",
@@ -274,7 +292,7 @@ const TopBar = () => {
         <Flex
           align={"center"}
           justify="space-between"
-          w={{xl: "23%",md: "28%"}}
+          w={{ xl: "23%", md: "28%" }}
         >
           <FaMobileAlt size="1.1rem" color="#FE47A2" />
           <Text>Get APP</Text>
@@ -297,7 +315,7 @@ const TopBar = () => {
         <Flex
           align={"center"}
           justify="space-between"
-          w={{xl: "28%",md:"34%"}}
+          w={{ xl: "28%", md: "34%" }}
           display={{
             base: "none",
             sm: "none",
@@ -341,7 +359,7 @@ const TopBar = () => {
         <Flex
           align={"center"}
           justify="space-between"
-          w={{xl: "21%",lg: "23%",md: "23%"}}
+          w={{ xl: "21%", lg: "23%", md: "23%" }}
           pr={"0.5rem"}
           display={{
             base: "none",
