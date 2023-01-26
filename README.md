@@ -55,7 +55,7 @@
 
 ## Responsive Mobile Screen :
 
-<div>
+<div align="center">
   ![Capture5](https://user-images.githubusercontent.com/107471586/214829140-70125728-8f09-41a7-97ce-e87db581d8e8.PNG) <br/>
 ![Capture6](https://user-images.githubusercontent.com/107471586/214829170-0efd7121-56a0-4efa-9b91-d6fab0130d40.PNG) <br/>
 ![res3](https://user-images.githubusercontent.com/107471586/214829208-70172ef9-c566-491e-a90b-f01831c54161.png) <br/> 
