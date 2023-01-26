@@ -50,12 +50,12 @@
 
 ## Footer :
 ![Capture4](https://user-images.githubusercontent.com/107471586/214827526-c4060358-02b1-4d2a-8050-7839be690d18.PNG)
-<br/>
+<br/> <br/>
 
 ## Responsive Mobile Screen :
-![Capture5](https://user-images.githubusercontent.com/107471586/214829140-70125728-8f09-41a7-97ce-e87db581d8e8.PNG)
-![Capture6](https://user-images.githubusercontent.com/107471586/214829170-0efd7121-56a0-4efa-9b91-d6fab0130d40.PNG)
-[res3](https://user-images.githubusercontent.com/107471586/214829208-70172ef9-c566-491e-a90b-f01831c54161.png)
+![Capture5](https://user-images.githubusercontent.com/107471586/214829140-70125728-8f09-41a7-97ce-e87db581d8e8.PNG) <br/>
+![Capture6](https://user-images.githubusercontent.com/107471586/214829170-0efd7121-56a0-4efa-9b91-d6fab0130d40.PNG) <br/>
+![res3](https://user-images.githubusercontent.com/107471586/214829208-70172ef9-c566-491e-a90b-f01831c54161.png) <br/> <br/>
 
 ## Responsive Tablet Screen :
 ![tabletScreen](https://user-images.githubusercontent.com/107471586/214829838-eebcd797-99f1-4fd3-bcb5-8776fd68d12e.PNG)
