@@ -1,4 +1,4 @@
-# Welcome to WEFIT
+# Welcome to Sephora_NNNOW
 <h3>Sephora-NNNOW is an E-Commerce Web Site Mainly For Beauty Products. From this site user can buy any type of beauty products.</h3>
 
 ## [Deployed URL](https://sephora-nnnow-clone-by-subha.netlify.app/)
