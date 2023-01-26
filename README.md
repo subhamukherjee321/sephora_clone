@@ -75,7 +75,7 @@
 <h3>Users can Login using Login Authentication with thier registered Email address .</h3>
 <br/> <br/>
 
-Source Code(GitHub link):-https://github.com/vaibhav-mougha/smelly-island-5345
+Source Code(GitHub link):- https://github.com/subhamukherjee321/sephora_clone
 
 
 ### Thank you
